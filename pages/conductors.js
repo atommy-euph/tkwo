@@ -6,8 +6,8 @@ export default function Conductors() {
   return (
     <div className="container">
       <main className="main">
-        <Image src={zaki} />
-        <Image src={taki} />
+        <Image src={zaki} alt="yoshizaki takashi" />
+        <Image src={taki} alt="taki kojis"/>
       </main>
     </div>
   );

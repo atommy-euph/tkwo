@@ -5,7 +5,7 @@ import "../styles/markdown.css"
 
 function MyApp({ Component, pageProps }) {
   return  <>
-  <Script type="application/javascript">
+  <Script id="typekit" type="application/javascript">
     {` (function(d) {
         var config = {
         kitId: 'bom5hyg',

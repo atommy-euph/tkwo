@@ -1,8 +1,6 @@
-import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
-import titleLogo from "../icons/title-logo.svg";
 import Header from "../components/Header";
 
 export default function Home() {
