@@ -1,0 +1,99 @@
+.article {
+  @apply text-base;
+}
+
+/* Headers */
+.article h1 {
+  @apply text-2xl font-bold mt-12 mb-8;
+}
+
+.article h2 {
+  @apply text-xl font-bold mt-10 mb-6;
+}
+.article h3 {
+  @apply text-lg font-bold my-6;
+}
+
+/* Links */
+.article a {
+  @apply text-blue-600 underline leading-7;
+}
+.article a:hover {
+  @apply decoration-dashed;
+}
+
+/* Paragraph */
+.article p {
+  @apply mb-4 leading-7 text-justify;
+}
+
+/* Table */
+.article table {
+  @apply block border-collapse my-10 overflow-x-scroll  whitespace-nowrap text-sm;
+}
+.article th {
+  @apply bg-slate-300 text-slate-800 font-bold text-center border-[1px] border-b-2 border-slate-500 py-2 px-5;
+}
+.article td {
+  @apply border-[1px] border-slate-500 py-2 px-5;
+}
+.article tr:nth-child(2n) {
+  @apply bg-slate-200;
+}
+
+/* Lists */
+.article ul,
+.article ol {
+  @apply mb-4 ml-5;
+}
+.article li > p,
+.article ul > li,
+.article ol > li {
+  @apply mb-2 leading-7 pl-1;
+}
+.article ol {
+  @apply list-decimal;
+}
+.article ul {
+  @apply list-disc;
+}
+
+/* Blockquotes */
+.article blockquote {
+  @apply pl-4 py-1 mx-2 my-6 bg-gray-100 border-l-4 border-gray-400 rounded-r-lg;
+}
+.article blockquote > p {
+  @apply mb-0 leading-7;
+}
+
+/* Horizontal line */
+
+.article hr {
+  @apply my-2;
+}
+
+/* Images */
+.article .gatsby-resp-image-wrapper {
+  @apply block my-16;
+}
+
+.article img {
+  @apply rounded-lg;
+}
+
+/* Code */
+.article :not(pre) > code {
+  @apply bg-indigo-50 p-1 font-semibold text-gray-600 rounded-lg;
+}
+
+/* Pre */
+.article pre {
+  @apply mx-2;
+}
+
+/* iframe */
+.article iframe {
+  @apply w-full h-auto aspect-[4/3] my-6;
+}
+
+/* apply only this site */

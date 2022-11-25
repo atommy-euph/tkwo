@@ -2,12 +2,12 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
-
 import titleLogo from "../icons/title-logo.svg";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="py-0 ">
+    <div className="container">
       <Head>
 
         <title>The Keynote Wind Orchestra</title>
@@ -26,35 +26,31 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main className="main">
-        <h1 className="font-tangier font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-r from-gold via-lightyellow to-darkyellow">
-          <Image src={titleLogo} />
-        </h1>
-        <div className="spacer-s">{/* spacer */}</div>
-        <h2>キャッチコピー &rarr;</h2>
+        <Header />
         <div className="spacer-m">{/* spacer */}</div>
         <div>
           <p>簡単にまとめる</p>
         </div>
         <div className="spacer-m">{/* spacer */}</div>
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h2>The Keynote Wind Orchestra について &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <Link href="/about" className="card">
+            <h2>The Keynote Wind Orchestra とは &rarr;</h2>
+            <p>ひとり一人の音を大切に、心に沁み渡る演奏を。</p>
+          </Link>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <Link href="/details" className="card">
             <h2>演奏会詳細 &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+            <p>詳しい会場へのアクセス・開場時間などはこちら。</p>
+          </Link>
 
           <Link href="/conductors" className="card">
             <h2>指揮者紹介 &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>当楽団の頼れる指揮者２名をご紹介します。</p>
           </Link>
         </div>
       </main>
 
-      <footer className="footer">SNS icons</footer>
+     
     </div>
   );
 }
