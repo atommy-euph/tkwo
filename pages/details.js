@@ -54,7 +54,11 @@ export default function Conductors() {
           </p>
           <a href="mailto:thekeynotewo@gmailcom">thekeynotewo@gmail.com</a>
         </div>
+        <Link href="/" className="button w-24 mt-12">
+          トップへ戻る
+        </Link>
       </main>
+
       <Footer />
     </div>
   );
