@@ -1,12 +1,17 @@
 import Image from "next/image";
+import Link from "next/link";
 import titleLogo from "../icons/title-logo.svg";
 
 export default function Header() {
   return (
     <>
-      <Image src={titleLogo} />
-      <div className="spacer-s">{/* spacer */}</div>
-      <h2>キャッチコピー &rarr;</h2>
+      <Link href="/" className="flex justify-left">
+        <Image
+          className="w-44 fixed top-[2rem] left-[2rem]"
+          src={titleLogo}
+          alt="the keynote wind orchestra"
+        />
+      </Link>
     </>
   );
 }

@@ -15,14 +15,13 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: freight-sans-pro, a-otf-gothic-mb101-pr6n, sans-serif
+  font-family: freight-sans-pro, a-otf-gothic-mb101-pr6n, sans-serif;
 }
-
 
 @tailwind components;
 
 .container {
-  padding: 0 2rem;
+  padding: 5rem 2rem;
 }
 
 .main {
@@ -79,7 +78,6 @@ a {
   font-size: 1.5rem;
 }
 
-
 .grid {
   display: flex;
   align-items: center;
@@ -97,7 +95,6 @@ a {
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 }
 
 .card:hover,
@@ -144,12 +141,12 @@ a {
 }
 
 @tailwind utilities;
-.space-s {
-  @apply h-10
+.spacer-s {
+  @apply h-10;
 }
-.space-m {
-  @apply h-20
+.spacer-m {
+  @apply h-20;
 }
-.space-l {
-  @apply h-40
+.spacer-l {
+  @apply h-40;
 }
