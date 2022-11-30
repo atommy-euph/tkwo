@@ -61,11 +61,11 @@ export default function Home() {
             </Link>
             <Link href="/details" className="card">
               <h2>演奏会詳細 &rarr;</h2>
-              <p>詳しい会場へのアクセス・開場時間などはこちら。</p>
+              <p>全プログラム・会場へのアクセス・開場時間などはこちら。</p>
             </Link>
             <Link href="/conductors" className="card">
               <h2>指揮者紹介 &rarr;</h2>
-              <p>当楽団の頼れる指揮者２名をご紹介します。</p>
+              <p>当楽団の演奏を作り上げる指揮者２名を、皆様にご紹介します。</p>
             </Link>
           </div>
           <div className="spacer-m"></div>

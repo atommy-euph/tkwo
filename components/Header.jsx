@@ -5,9 +5,9 @@ import titleLogo from "../icons/title-logo.svg";
 export default function Header() {
   return (
     <header className="flex w-full justify-between items-center fixed top-0 left-0 p-[2rem]">
-      <Link href="/">
+      <Link href="/" className="w-3/5 max-w-[18rem]">
         <Image
-          className="w-56"
+          className="w-full"
           src={titleLogo}
           alt="the keynote wind orchestra"
         />
