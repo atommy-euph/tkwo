@@ -19,7 +19,7 @@ export default function Footer() {
           <p className="font-kurobara mr-2 text-lightyellow underline">
             @thekeynotewo
           </p>
-          <p className="font-kurobara text-xs">[最速で情報更新中！]</p>
+          <p className="font-kurobara text-sm">[最速で情報更新中！]</p>
         </a>
         <a href="https://instagram.com/thekeynotewo" className="sns">
           <Image
@@ -32,7 +32,7 @@ export default function Footer() {
           <p className="font-kurobara mr-2 text-lightyellow underline">
             @thekeynotewo
           </p>
-          <p className="font-kurobara text-xs">[練習の様子を公開中！]</p>
+          <p className="font-kurobara text-sm">[練習の様子を公開中！]</p>
         </a>
         <a href="mailto:thekeynotewo@gmail.com" className="sns">
           <Image
@@ -45,7 +45,7 @@ export default function Footer() {
           <p className="font-kurobara mr-2 text-lightyellow underline">
             thekeynotewo@gmail.com
           </p>
-          <p className="font-kurobara text-xs">
+          <p className="font-kurobara text-sm">
             [メールでのお問い合わせはコチラ！]
           </p>
         </a>

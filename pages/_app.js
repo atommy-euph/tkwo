@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:description"
-          content={"The Keynote Wind Orchestra の演奏会情報、奏者募集はコチラ"}
+          content={"The Keynote Wind Orchestra の演奏会情報はコチラ"}
         />
         <meta property="og:image" content="" />
         <meta name="twitter:card" content="summary_large_image" />

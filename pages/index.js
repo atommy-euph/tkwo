@@ -21,7 +21,7 @@ export default function Home() {
               マードックからの最後の手紙{" "}
               <span className="author">/ 樽屋雅徳</span>
             </p>
-            <p className="font-kurobara text-sm mt-4">他2曲</p>
+            <p className="font-kurobara mt-4">他2曲</p>
           </div>
           <div className="spacer-s"></div>
           <div className="px-10 font-kurobara">
@@ -41,7 +41,7 @@ export default function Home() {
             </p>
           </div>
           <div className="px-10 mt-4">
-            <p className="font-kurobara">入場無料</p>
+            <p className="font-kurobara text-lg">入場無料</p>
           </div>
           <div className="spacer-l"></div>
 
@@ -51,7 +51,7 @@ export default function Home() {
       <div className="container">
         <Header />
         <main className="main">
-          <h2 className="font-kurobara text-2xl  text-darkyellow first-letter:text-2xl mb-5">
+          <h2 className="font-kurobara text-2xl  text-lightyellow first-letter:text-2xl mb-5">
             Informations
           </h2>
           <div className="grid">
@@ -60,7 +60,7 @@ export default function Home() {
               <p>ひとり一人の音を大切に、心に沁み渡る演奏を。</p>
             </Link>
             <Link href="/details" className="card">
-              <h2>演奏会詳細 &rarr;</h2>
+              <h2>コンサート情報 &rarr;</h2>
               <p>全プログラム・会場へのアクセス・開場時間などはこちら。</p>
             </Link>
             <Link href="/conductors" className="card">
@@ -69,7 +69,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="spacer-m"></div>
-          <h2 className="font-kurobara text-2xl text-darkyellow first-letter:text-2xl mb-5">
+          <h2 className="font-kurobara text-2xl text-lightyellow first-letter:text-2xl mb-5">
             News
           </h2>
           <p className="text-center">Coming Soon!</p>
