@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
         <div className="relative z-10">
-          <div className="h-32"></div>
+          <div className="h-40"></div>
           <div className="px-10">
             <p className="piece">
               アルプスの詩 <span className="author">/ F.チェザリーニ</span>
@@ -38,7 +38,7 @@ export default function Home() {
             </p>
             <p className="font-kurobara">
               <span className="text-xs font-kurobara">[開場]</span> 18:00{" "}
-              <span className="text-xs font-kurobara">[開演]</span> 18:30{" "}
+              <span className="text-xs font-kurobara ml-1.5">[開演]</span> 18:30{" "}
             </p>
           </div>
           <div className="px-10 mt-4">
