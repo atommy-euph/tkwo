@@ -4,14 +4,17 @@ import titleLogo from "../icons/title-logo.svg";
 
 export default function Header() {
   return (
-    <>
-      <Link href="/" className="flex justify-left">
+    <header className="flex w-full justify-between items-center fixed top-0 left-0 p-[2rem]">
+      <Link href="/">
         <Image
-          className="w-56 fixed top-[2rem] left-[2rem]"
+          className="w-56"
           src={titleLogo}
           alt="the keynote wind orchestra"
         />
       </Link>
-    </>
+      <Link className="button mt-4" href="/details">
+        詳細を見る
+      </Link>
+    </header>
   );
 }

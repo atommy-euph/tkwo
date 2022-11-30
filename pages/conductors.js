@@ -7,8 +7,8 @@ import Header from "../components/Header";
 export default function Conductors() {
   return (
     <div className="container">
+      <Header />
       <main className="main article">
-        <Header />
         <Image src={zaki} alt="yoshizaki takashi" />
         <div>
           <h2>吉崎高士</h2>

@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function Conductors() {
   return (
     <div className="container">
+      <Header />
       <main className="main">
-        <Header />
         <div className="article">
           <h1>The Keynote Wind Orchestra ― </h1>
           <p>
@@ -18,6 +20,9 @@ export default function Conductors() {
             ひとり一人がKeynote(大切な音)という意味をこめて命名しました。音楽を愛する皆様ひとり一人の心に沁みわたる演奏をお届けします。
           </p>
         </div>
+        <Link href="/" className="button mt-12 w-24">
+          トップへ戻る
+        </Link>
       </main>
       <Footer />
     </div>

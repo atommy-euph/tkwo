@@ -49,6 +49,9 @@ export default function Footer() {
             [メールでのお問い合わせはコチラ！]
           </p>
         </a>
+        <p className="text-xs font-kurobara pt-8">
+          © 2022 The Keynote Wind Orchestra
+        </p>
       </footer>
     </>
   );

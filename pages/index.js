@@ -3,14 +3,13 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 
 import Header from "../components/Header";
-import key from "../images/key.jpg";
 
 export default function Home() {
   return (
     <>
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
         <div className="relative z-10">
-          <div className="h-40"></div>
+          <div className="h-44"></div>
           <div className="px-10">
             <p className="piece">
               アルプスの詩 <span className="author">/ F.チェザリーニ</span>
@@ -44,18 +43,17 @@ export default function Home() {
           <div className="px-10 mt-4">
             <p className="font-kurobara">入場無料</p>
           </div>
-          <div className="spacer-s"></div>
-          <div className="px-10 flex justify-end mb-6">
-            <Link className="button" href="/details">
-              詳細を見る
-            </Link>
-          </div>
+          <div className="spacer-l"></div>
+
           <div className="spacer-s bg-gradient-to-b from-transparent to-bg"></div>
         </div>
       </div>
       <div className="container">
         <Header />
         <main className="main">
+          <h2 className="font-kurobara text-2xl  text-darkyellow first-letter:text-2xl mb-5">
+            Informations
+          </h2>
           <div className="grid">
             <Link href="/about" className="card">
               <h2>The Keynote Wind Orchestra とは &rarr;</h2>
@@ -70,6 +68,11 @@ export default function Home() {
               <p>当楽団の頼れる指揮者２名をご紹介します。</p>
             </Link>
           </div>
+          <div className="spacer-m"></div>
+          <h2 className="font-kurobara text-2xl text-darkyellow first-letter:text-2xl mb-5">
+            News
+          </h2>
+          <p className="text-center">Coming Soon!</p>
         </main>
         <Footer />
       </div>
