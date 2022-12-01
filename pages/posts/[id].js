@@ -1,5 +1,7 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
+import Link from "next/link";
+
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Date from "../../components/Date";
@@ -11,11 +13,9 @@ export default function Post({ postData }) {
       <div className="main">
         <div className="article">
           <h1>{postData.title}</h1>
-          <br />
-          <span>{postData.id}</span>
-          <br />
           <Date dateString={postData.date} />
           <br />
+          <div className="spacer-m"></div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
         <Link href="/" className="button mt-12 w-24">

@@ -74,10 +74,13 @@ export default function Home({ allPostsData }) {
           <h2 className="font-kurobara text-2xl text-lightyellow first-letter:text-2xl mb-5">
             News
           </h2>
-          <ul className="">
+          <ul className="mt-5">
             {allPostsData.map(({ id, date, title }) => (
-              <li className="mb-5" key={id}>
-                <Link href={`/posts/${id}`} className="underline ">
+              <li className="mb-3" key={id}>
+                <Link
+                  href={`/posts/${id}`}
+                  className="underline hover:text-lightyellow"
+                >
                   {title}
                 </Link>
                 <br />
@@ -85,7 +88,6 @@ export default function Home({ allPostsData }) {
               </li>
             ))}
           </ul>
-          <p className="text-center">Coming Soon!</p>
         </main>
         <Footer />
       </div>
