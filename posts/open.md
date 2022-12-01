@@ -16,4 +16,4 @@ The Keynote Wind Orchestra の特設サイトを開設しました。
 
 [指揮者紹介](https://keynotewo.atommy.me/conductors)
 
-[TThe Keynote Wind Orchestra とは](https://keynotewo.atommy.me/details)
+[The Keynote Wind Orchestra とは](https://keynotewo.atommy.me/details)

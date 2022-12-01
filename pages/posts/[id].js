@@ -12,10 +12,10 @@ export default function Post({ postData }) {
       <Header />
       <div className="main">
         <div className="article">
-          <h1>{postData.title}</h1>
+          <h1 className="mb-0">{postData.title}</h1>
           <Date dateString={postData.date} />
           <br />
-          <div className="spacer-m"></div>
+          <div className="spacer-s"></div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
         <Link href="/" className="button mt-12 w-24">
