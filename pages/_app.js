@@ -7,7 +7,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>The Keynote Wind Orchestra</title>
         <meta title="ざき吹 | The Keynote Wind Orchestra" />
         <head prefix="og:http://ogp.me/ns#" />
         <meta property="og:type" content="website" />

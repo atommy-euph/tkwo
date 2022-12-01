@@ -4,11 +4,16 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Date from "../components/Date";
 
+import Head from "next/head";
+
 import { getSortedPostsData } from "../lib/posts";
 
 export default function Home({ allPostsData }) {
   return (
     <>
+      <Head>
+        <title>The Keynote Wind Orchestra</title>
+      </Head>
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
         <div className="relative z-10">
           <div className="h-44"></div>

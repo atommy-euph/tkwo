@@ -6,9 +6,14 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Date from "../../components/Date";
 
+import Head from "next/head";
+
 export default function Post({ postData }) {
   return (
     <div className="container">
+      <Head>
+        <title>{postData.title}</title>
+      </Head>
       <Header />
       <div className="main">
         <div className="article">

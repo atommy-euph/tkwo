@@ -6,9 +6,14 @@ import taki from "../images/taki.jpeg";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+import Head from "next/head";
+
 export default function Conductors() {
   return (
     <div className="container">
+      <Head>
+        <title>指揮者紹介 | The Keynote Wind Orchestra</title>
+      </Head>
       <Header />
       <main className="main">
         <div className="article">

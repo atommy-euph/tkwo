@@ -3,9 +3,14 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+import Head from "next/head";
+
 export default function Conductors() {
   return (
     <div className="container">
+      <Head>
+        <title>コンサート情報 | The Keynote Wind Orchestra</title>
+      </Head>
       <Header />
       <main className="main">
         <div className="article">
