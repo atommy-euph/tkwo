@@ -24,7 +24,13 @@ export default function Conductors() {
             入場無料
           </p>
           <h2>会場</h2>
-          <p>池田市民文化会館アゼリアホール</p>
+          <h3>池田市民文化会館アゼリアホール</h3>
+          <p>阪急宝塚線 石橋阪大前駅下車。西出口より徒歩約8分。</p>
+          <p>
+            その他の交通アクセス情報は
+            <a href="https://azaleanet.or.jp/access/">会場Webサイト</a>
+            をご覧ください。
+          </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.8629346530197!2d135.43895351523508!3d34.809390080406665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f09a8f7202b3%3A0x5ec7cc529cbfd6e2!2z5rGg55Sw5biC5rCR5paH5YyW5Lya6aSo77yI44Ki44K844Oq44Ki44Ob44O844Or77yJ!5e0!3m2!1sja!2sjp!4v1669810679555!5m2!1sja!2sjp"
             allowfullscreen=""
