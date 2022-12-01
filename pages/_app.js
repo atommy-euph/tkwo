@@ -19,7 +19,10 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content={"The Keynote Wind Orchestra の演奏会情報はコチラ"}
         />
-        <meta property="og:image" content="https://keynote.atommy.me/ogp.jpg" />
+        <meta
+          property="og:image"
+          content="https://keynotewo.atommy.me/ogp.jpg"
+        />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Script id="typekit" type="application/javascript">
