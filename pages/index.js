@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Footer from "../components/Footer";
-
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Date from "../components/Date";
 
-export default function Home() {
+import { getSortedPostsData } from "../lib/posts";
+
+export default function Home({ allPostsData }) {
   return (
     <>
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
@@ -72,10 +74,30 @@ export default function Home() {
           <h2 className="font-kurobara text-2xl text-lightyellow first-letter:text-2xl mb-5">
             News
           </h2>
+          <ul className="">
+            {allPostsData.map(({ id, date, title }) => (
+              <li className="mb-5" key={id}>
+                <Link href={`/posts/${id}`} className="underline ">
+                  {title}
+                </Link>
+                <br />
+                <Date dateString={date} />
+              </li>
+            ))}
+          </ul>
           <p className="text-center">Coming Soon!</p>
         </main>
         <Footer />
       </div>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData,
+    },
+  };
 }
