@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
   return (
     <>
       <Head>
-        <title>The Keynote Wind Orchestra</title>
+        <title>ざき吹 | The Keynote Wind Orchestra</title>
       </Head>
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
         <div className="relative z-10">
@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
               メトロポリス1927 <span className="author">/ P.グレイアム</span>
             </p>
             <p className="piece">
-              マードックからの最後の手紙{" "}
+              マードックからの最後の手紙
               <span className="author">/ 樽屋雅徳</span>
             </p>
             <p className="font-kurobara mt-4">他2曲</p>
@@ -33,18 +33,18 @@ export default function Home({ allPostsData }) {
           <div className="spacer-s"></div>
           <div className="px-10 font-kurobara">
             <p className="font-kurobara text-sm">
-              <span className="text-xl font-kurobara">2023</span>年{" "}
+              <span className="text-xl font-kurobara">2023</span>年
               <span className="text-xl font-kurobara">3</span>月
               <span className="text-xl font-kurobara">26</span>日 (
               <span className="text-xl font-kurobara">日</span>)
             </p>
             <p className="font-kurobara mb-1">
-              <span className="text-2xl font-kurobara">アゼリアホール</span>{" "}
+              <span className="text-2xl font-kurobara">アゼリアホール</span>
               (池田市民文化会館)
             </p>
             <p className="font-kurobara">
-              <span className="text-xs font-kurobara">[開場]</span> 18:00{" "}
-              <span className="text-xs font-kurobara ml-1.5">[開演]</span> 18:30{" "}
+              <span className="text-xs font-kurobara">[開場]</span> 18:00
+              <span className="text-xs font-kurobara ml-1.5">[開演]</span> 18:30
             </p>
           </div>
           <div className="px-10 mt-4">

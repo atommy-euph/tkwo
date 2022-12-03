@@ -12,7 +12,7 @@ export default function Post({ postData }) {
   return (
     <div className="container">
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData.title} | The Keynote Wind Orchestra</title>
       </Head>
       <Header />
       <div className="main">
