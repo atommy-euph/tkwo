@@ -9,7 +9,9 @@ export default function Conductors() {
   return (
     <div className="container">
       <Head>
-        <title>The Keynote Wind Orchestra について</title>
+        <title>
+          The Keynote Wind Orchestra について | The Keynote Wind Orchestra
+        </title>
       </Head>
       <Header />
       <main className="main">
