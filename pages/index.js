@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Date from "../components/Date";
+import ReleaseDate from "../components/ReleaseDate";
+import { parseISO } from "date-fns";
 
 import Head from "next/head";
 
@@ -80,18 +80,21 @@ export default function Home({ allPostsData }) {
             News
           </h2>
           <ul className="mt-5">
-            {allPostsData.map(({ id, date, title }) => (
-              <li className="mb-3" key={id}>
-                <Link
-                  href={`/posts/${id}`}
-                  className="underline hover:text-lightyellow"
-                >
-                  {title}
-                </Link>
-                <br />
-                <Date dateString={date} />
-              </li>
-            ))}
+            {allPostsData.map(
+              ({ id, date, title }) =>
+                parseISO(date) < new Date() && (
+                  <li className="mb-3" key={id}>
+                    <Link
+                      href={`/posts/${id}`}
+                      className="underline hover:text-lightyellow"
+                    >
+                      {title}
+                    </Link>
+                    <br />
+                    <ReleaseDate dateString={date} />
+                  </li>
+                )
+            )}
           </ul>
         </main>
         <Footer />

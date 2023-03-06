@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Date from "../../components/Date";
+import Date from "../../components/ReleaseDate";
 
 import Head from "next/head";
 
