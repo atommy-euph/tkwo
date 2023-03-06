@@ -28,7 +28,7 @@ date: '2023-03-08'
 ## リンク
 
 - [吹奏楽版](https://www.youtube.com/watch?v=BF0TcSC8Fo0)
-- [ブランバンド版(原曲)](https://www.youtube.com/watch?v=UmQ3uLadM-w)
+- [ブラスバンド版(原曲)](https://www.youtube.com/watch?v=UmQ3uLadM-w)
 - [映画『メトロポリス』](https://www.youtube.com/watch?v=Fe24e-WZmw0)
 
 
