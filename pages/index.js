@@ -54,7 +54,16 @@ export default function Home({ allPostsData }) {
           <div className="px-10 mt-4">
             <p className="font-kurobara text-lg">入場無料</p>
           </div>
-          <div className="spacer-l"></div>
+
+          <div className="spacer-s"></div>
+          <div className="px-10">
+            <Link href="/posts/concert">
+              <div className="relative -top-[2px] opacity-60 bg-pink-300 w-32 text-black px-4 py-2 shadow-md shadow-pink-900 hover:shadow-none hover:top-0 transition-all">
+                <p className="font-kurobara text-center">来場される方へ →</p>
+              </div>
+            </Link>
+          </div>
+          <div className="spacer-m"></div>
 
           <div className="spacer-s bg-gradient-to-b from-transparent to-bg"></div>
         </div>
@@ -70,7 +79,7 @@ export default function Home({ allPostsData }) {
               <h2>The Keynote Wind Orchestra とは &rarr;</h2>
               <p>ひとり一人の音を大切に、心に沁み渡る演奏を。</p>
             </Link>
-            <Link href="/details" className="card">
+            <Link href="/posts/concert" className="card">
               <h2>コンサート情報 &rarr;</h2>
               <p>全プログラム・会場へのアクセス・開場時間などはこちら。</p>
             </Link>
