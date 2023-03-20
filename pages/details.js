@@ -10,6 +10,10 @@ export default function Conductors() {
     <div className="container">
       <Head>
         <title>コンサート情報 | The Keynote Wind Orchestra</title>
+        <meta
+          property="og:title"
+          content={`コンサート情報 | The Keynote Wind Orchestra`}
+        />
       </Head>
       <Header />
       <main className="main">

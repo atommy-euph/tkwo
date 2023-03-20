@@ -13,6 +13,10 @@ export default function Post({ postData }) {
     <div className="container">
       <Head>
         <title>{`${postData.title} | The Keynote Wind Orchestra`}</title>
+        <meta
+          property="og:title"
+          content={`${postData.title} | The Keynote Wind Orchestra`}
+        />
       </Head>
       <Header />
       <div className="main">

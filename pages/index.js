@@ -13,6 +13,10 @@ export default function Home({ allPostsData }) {
     <>
       <Head>
         <title>ざき吹 | The Keynote Wind Orchestra</title>
+        <meta
+          property="og:title"
+          content={`ざき吹 | The Keynote Wind Orchestra`}
+        />
       </Head>
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
         <div className="relative z-10">
