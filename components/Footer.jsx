@@ -50,7 +50,7 @@ export default function Footer() {
           </p>
         </a>
         <p className="text-xs font-kurobara pt-8">
-          © 2022-2023 The Keynote Wind Orchestra
+          © 2022-2024 The Keynote Wind Orchestra
         </p>
       </footer>
     </>
