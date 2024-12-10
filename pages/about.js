@@ -20,7 +20,7 @@ export default function Conductors() {
       <Header />
       <main className="main">
         <div className="article">
-          <h1>The Keynote Wind Orchestra ― </h1>
+          <h1 className="text-lightyellow">The Keynote Wind Orchestra </h1>
           <p>
             The Keynote Wind Orchestra ― 通称「ざき吹」。
             楽団名には「一人ひとりが『Keynote』(大切な音)」という意味が込められています。

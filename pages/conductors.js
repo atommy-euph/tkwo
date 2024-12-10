@@ -21,7 +21,7 @@ export default function Conductors() {
       <Header />
       <main className="main">
         <div className="article">
-          <h1>指揮者紹介　ー </h1>
+          <h1 className="text-lightyellow">指揮者紹介</h1>
           <Image src={zaki} alt="yoshizaki takashi" />
           <div>
             <h2>吉崎高士</h2>

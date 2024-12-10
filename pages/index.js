@@ -96,7 +96,7 @@ export default function Home({ allPostsData }) {
             News
           </h2>
           <ul className="mt-5">
-            {allPostsData.slice(0, 8).map(
+            {allPostsData.slice(0, 5).map(
               ({ id, date, title }) =>
                 parseISO(date) < new Date() && (
                   <li className="mb-3" key={id}>

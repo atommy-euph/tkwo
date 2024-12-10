@@ -11,7 +11,7 @@ import { parseISO } from "date-fns";
 
 
 export default function Conductors({ allPostsData }) {
-  const [display, setDisplay] = useState(5);
+  const [display, setDisplay] = useState(10);
   const [sorted, setSorted] = useState("latest");
   const [sortedPostsData, setSortedPostsData] = useState(allPostsData);
   const [currentPage, setCurrentPage] = useState(1);
