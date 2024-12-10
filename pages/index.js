@@ -96,13 +96,13 @@ export default function Home({ allPostsData }) {
             News
           </h2>
           <ul className="mt-5">
-            {allPostsData.map(
+            {allPostsData.slice(0, 8).map(
               ({ id, date, title }) =>
                 parseISO(date) < new Date() && (
                   <li className="mb-3" key={id}>
                     <Link
                       href={`/posts/${id}`}
-                      className="underline hover:text-lightyellow"
+                      className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
                     >
                       {title}
                     </Link>
@@ -112,6 +112,7 @@ export default function Home({ allPostsData }) {
                 )
             )}
           </ul>
+          <Link href="/news" className="mt-12 w-24 underline underline-offset-2 decoration-dotted text-blue-600 text-sm hover:decoration-solid hover:text-white">すべて見る</Link>
         </main>
         <Footer />
       </div>

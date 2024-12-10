@@ -138,6 +138,7 @@ a {
   text-decoration: underline 0.5px;
   text-underline-offset: 0.1em;
   @apply text-base text-center font-kurobara text-lightyellow;
+  @apply top-0 hover:-top-1 transition-all duration-75 ease-in;
 }
 .button:before {
   content: "";
@@ -160,6 +161,10 @@ a {
   border-top: 1px solid;
   border-left: 2px solid;
   @apply border-lightyellow;
+
+}
+.link {
+  @apply underline decoration-dotted hover:decoration-solid;
 }
 
 .sns {

@@ -16,7 +16,7 @@ export default function Footer() {
             src={twitter}
             alt="twitter icon"
           />
-          <p className="font-kurobara mr-2 text-lightyellow underline">
+          <p className="font-kurobara mr-2 text-lightyellow underline decoration-dotted hover:decoration-solid">
             @thekeynotewo
           </p>
           <p className="font-kurobara text-sm">[最速で情報更新中！]</p>
@@ -29,7 +29,7 @@ export default function Footer() {
             src={instagram}
             alt="instagram icon"
           />
-          <p className="font-kurobara mr-2 text-lightyellow underline">
+          <p className="font-kurobara mr-2 text-lightyellow underline decoration-dotted hover:decoration-solid">
             @thekeynotewo
           </p>
           <p className="font-kurobara text-sm">[練習の様子を公開中！]</p>
@@ -42,7 +42,7 @@ export default function Footer() {
             src={mail}
             alt="mail icon"
           />
-          <p className="font-kurobara mr-2 text-lightyellow underline">
+          <p className="font-kurobara mr-2 text-lightyellow underline decoration-dotted hover:decoration-solid">
             thekeynotewo@gmail.com
           </p>
           <p className="font-kurobara text-sm">
