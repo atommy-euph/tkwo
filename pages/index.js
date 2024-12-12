@@ -7,7 +7,6 @@ import { parseISO } from "date-fns";
 
 import Head from "next/head";
 
-import redLine from "../images/red-line.svg";
 import program from "../images/program.svg";
 import second from "../images/second.svg";
 

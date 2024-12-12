@@ -60,6 +60,7 @@ export default function Conductors({ allPostsData }) {
       </Head>
       <Header />
       <main className="main">
+        <div className="spacer-s"></div>
         <h1 className="font-kurobara text-4xl text-lightyellow mb-2">News </h1>
         <div className="text-sm flex space-x-2 mb-8">
           <select value={sorted} onChange={(e) => setSorted(e.target.value)}>
