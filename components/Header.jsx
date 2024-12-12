@@ -3,6 +3,8 @@ import Link from "next/link";
 import titleLogo from "../icons/title-logo.svg";
 
 import { motion, useScroll, useTransform } from "framer-motion";
+import redLine from "../images/red-line.svg";
+import second from "../images/2nd.svg";
 
 export default function Header() {
   const { scrollYProgress } = useScroll();
@@ -13,7 +15,15 @@ export default function Header() {
       style={{ opacity }}
       className="fixed top-0 w-full my-2 px-4 z-50"
     >
-      <header className="flex w-full justify-between items-center fixed top-2 left-0 p-[2rem]">
+      <header className="flex w-full justify-between items-center fixed top-2 left-0 p-[2rem] pt-10">
+        <div className="absolute right-0 top-0 w-full">
+          <div className="absolute top-[0.5rem] right-[4rem] rotate-[30deg] w-[3.5rem] z-10">
+            <Image src={second} className="w-full" alt="" />
+          </div>
+          <div className="absolute top-0 rotate-[30deg] right-[-3rem] w-96 z-0">
+            <Image src={redLine} className="w-full" alt="" />
+          </div>
+        </div>
         <Link href="/" className="w-3/5 max-w-[18rem]">
           <Image
             className="w-full"

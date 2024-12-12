@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181.54 171">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbc43b;
+        font-family: CurlzMT, 'Curlz MT';
+      }
+
+      .cls-2 {
+        font-size: 146.13px;
+        letter-spacing: .06em;
+      }
+
+      .cls-3 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 102.52px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー_1">
+    <text class="cls-1" transform="translate(0 119.17) scale(1.05 1)"><tspan class="cls-2" x="0" y="0">2</tspan><tspan class="cls-3" x="71.78" y="-5.74">n</tspan><tspan class="cls-4" x="126.95" y="-5.87">d</tspan></text>
+  </g>
+</svg>

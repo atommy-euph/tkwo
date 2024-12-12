@@ -60,59 +60,57 @@ export default function Conductors({ allPostsData }) {
       </Head>
       <Header />
       <main className="main">
-        <div className="container">
-          <h1 className="font-kurobara text-4xl text-lightyellow mb-2">News </h1>
-          <div className="text-sm flex space-x-2 mb-8">
-            <select value={sorted} onChange={(e) => setSorted(e.target.value)}>
-              <option value="latest">最新順</option>
-              <option value="oldest">古い順</option>
-            </select>
-            <select value={display} onChange={(e) => setDisplay(e.target.value)}>
-              <option value="10">10件ずつ表示</option>
-              <option value="30">30件ずつ表示</option>
-              <option value="100">100件ずつ表示</option>
-            </select>
-          </div>
-
-          <ul className="mt-5">
-            {sortedPostsData.map(
-              ({ id, date, title }) =>
-                parseISO(date) < new Date() && (
-                  <li className="mb-3" key={id}>
-                    <Link
-                      href={`/posts/${id}`}
-                      className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
-                    >
-                      {title}
-                    </Link>
-                    <br />
-                    <ReleaseDate dateString={date} />
-                  </li>
-                )
-            )}
-          </ul>
-          <div className="spacer-s"></div>
-          <div className="flex space-x-3 text-xs underline text-lightyellow">
-            <button onClick={() => handlePrev()}>前へ</button>
-            <div className="flex space-x-1">
-              {[...Array(totalPage)].map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setCurrentPage(i + 1)}
-                  className={`inline-block w-4 ${currentPage === i + 1 ? "bg-lightyellow text-black" : "text-lightyellow"}`}
-                >
-                  {i + 1}
-                </button>
-              ))}
-
-            </div>
-            <button onClick={() => handleNext()}>次へ</button>
-          </div>
-          <div className="spacer-m"></div>
-          <Link href="/" className="button w-24 mt-12">
-            トップへ戻る
-          </Link>
+        <h1 className="font-kurobara text-4xl text-lightyellow mb-2">News </h1>
+        <div className="text-sm flex space-x-2 mb-8">
+          <select value={sorted} onChange={(e) => setSorted(e.target.value)}>
+            <option value="latest">最新順</option>
+            <option value="oldest">古い順</option>
+          </select>
+          <select value={display} onChange={(e) => setDisplay(e.target.value)}>
+            <option value="10">10件ずつ表示</option>
+            <option value="30">30件ずつ表示</option>
+            <option value="100">100件ずつ表示</option>
+          </select>
         </div>
+
+        <ul className="mt-5">
+          {sortedPostsData.map(
+            ({ id, date, title }) =>
+              parseISO(date) < new Date() && (
+                <li className="mb-3" key={id}>
+                  <Link
+                    href={`/posts/${id}`}
+                    className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
+                  >
+                    {title}
+                  </Link>
+                  <br />
+                  <ReleaseDate dateString={date} />
+                </li>
+              )
+          )}
+        </ul>
+        <div className="spacer-s"></div>
+        <div className="flex space-x-3 text-xs underline text-lightyellow">
+          <button onClick={() => handlePrev()}>前へ</button>
+          <div className="flex space-x-1">
+            {[...Array(totalPage)].map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentPage(i + 1)}
+                className={`inline-block w-4 ${currentPage === i + 1 ? "bg-lightyellow text-black" : "text-lightyellow"}`}
+              >
+                {i + 1}
+              </button>
+            ))}
+
+          </div>
+          <button onClick={() => handleNext()}>次へ</button>
+        </div>
+        <div className="spacer-m"></div>
+        <Link href="/" className="button w-24 mt-12">
+          トップへ戻る
+        </Link>
       </main>
 
       <Footer />

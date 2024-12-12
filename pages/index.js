@@ -1,10 +1,16 @@
 import Link from "next/link";
+import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ReleaseDate from "../components/ReleaseDate";
 import { parseISO } from "date-fns";
 
 import Head from "next/head";
+
+import redLine from "../images/red-line.svg";
+import program from "../images/program.svg";
+import second from "../images/second.svg";
+
 
 import { getSortedPostsData } from "../lib/posts";
 
@@ -22,50 +28,50 @@ export default function Home({ allPostsData }) {
         {/* トップ画面メインビジュアル */}
         <div className="relative z-10">
           <div className="h-44"></div>
-          {/* <div className="px-10">
-            <p className="piece">
-              アルプスの詩 <span className="author">/ F.チェザリーニ</span>
+          <Image className="absolute w-[16rem] left-7" src={second} />
+
+          <div className="px-10">
+            <h1 className="text-4xl font-kurobara text-lightyellow"></h1>
+            <Image src={program} width={110} />
+            <div className="h-4"></div>
+            <p className="piece text-2xl">
+              ダンス・ムーヴメント <span className="author">/ P. スパーク</span>
             </p>
-            <p className="piece">
-              メトロポリス1927 <span className="author">/ P.グレイアム</span>
+            <p className="piece text-2xl">
+              ゲールフォース <span className="author">/ P. グレイアム</span>
             </p>
-            <p className="piece">
-              マードックからの最後の手紙
-              <span className="author">/ 樽屋雅徳</span>
+            <p className="piece"> 森の贈り物 <span className="author">/ 酒井格</span>
             </p>
             <p className="font-kurobara mt-4">他2曲</p>
-          </div> */}
+          </div>
           <div className="spacer-s"></div>
-          {/* <div className="px-10 font-kurobara">
+          <div className="px-10 font-kurobara">
             <p className="font-kurobara text-sm">
-              <span className="text-xl font-kurobara">2023</span>年
-              <span className="text-xl font-kurobara">3</span>月
-              <span className="text-xl font-kurobara">26</span>日 (
+              <span className="text-xl font-kurobara">2025</span>年
+              <span className="text-xl font-kurobara">8</span>月
+              <span className="text-xl font-kurobara">10</span>日 (
               <span className="text-xl font-kurobara">日</span>)
             </p>
             <p className="font-kurobara mb-1">
-              <span className="text-2xl font-kurobara">アゼリアホール</span>
-              (池田市民文化会館)
+              <span className="text-2xl font-kurobara">高槻城公園芸術文化劇場</span>
+              <span> </span>(中ホール)
             </p>
             <p className="font-kurobara">
-              <span className="text-xs font-kurobara">[開場]</span> 18:00
-              <span className="text-xs font-kurobara ml-1.5">[開演]</span> 18:30
+              <span className="text-xs font-kurobara">[開場]</span> 17:00
+              <span className="text-xs font-kurobara ml-1.5">[開演]</span> 18:00
             </p>
-          </div> */}
-          {/* <div className="px-10 mt-4">
-            <p className="font-kurobara text-lg">入場無料</p>
-          </div> */}
+          </div>
           <div className="px-10 mt-4">
-            <p className="font-kurobara text-xl text-center bg-black bg-opacity-30">Coming Soon...</p>
+            <p className="font-kurobara text-lg">入場無料</p>
           </div>
 
           <div className="spacer-s"></div>
 
-          {/* <div className="px-10">
+          <div className="px-10">
             <Link href="/posts/concert" className="button">
               詳細を見る
             </Link>
-          </div> */}
+          </div>
           <div className="spacer-m"></div>
 
           <div className="spacer-s bg-gradient-to-b from-transparent to-bg"></div>
