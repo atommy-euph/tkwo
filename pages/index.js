@@ -7,8 +7,8 @@ import { parseISO } from "date-fns";
 
 import Head from "next/head";
 
-import program from "../images/program.svg";
-import second from "../images/second.svg";
+import program from "../images/2nd/program.svg";
+import second from "../images/2nd/second.svg";
 
 
 import { getSortedPostsData } from "../lib/posts";
@@ -30,18 +30,18 @@ export default function Home({ allPostsData }) {
           <Image className="absolute w-[16rem] left-7" src={second} />
 
           <div className="px-10">
-            <h1 className="text-4xl font-kurobara text-lightyellow"></h1>
+            <h1 className="font-kurobara text-lightyellow"></h1>
             <Image src={program} width={110} />
             <div className="h-4"></div>
-            <p className="piece text-2xl">
+            <p className="piece">
               ダンス・ムーヴメント <span className="author">/ P. スパーク</span>
             </p>
-            <p className="piece text-2xl">
-              ゲールフォース <span className="author">/ P. グレイアム</span>
+            <p className="piece text-3xl">
+              ゲールフォース <span className="author text-base">/ P. グレイアム</span>
             </p>
-            <p className="piece"> 森の贈り物 <span className="author">/ 酒井格</span>
+            <p className="piece text-3xl"> 森の贈り物 <span className="author text-base">/ 酒井格</span>
             </p>
-            <p className="font-kurobara mt-4">他2曲</p>
+            <p className="font-kurobara mt-4">他3曲</p>
           </div>
           <div className="spacer-s"></div>
           <div className="px-10 font-kurobara">
@@ -101,20 +101,20 @@ export default function Home({ allPostsData }) {
             News
           </h2>
           <ul className="mt-5">
-            {allPostsData.slice(0, 5).map(
+            {allPostsData.filter(post => (parseISO(post.date) < new Date())).slice(0, 5).map(
               ({ id, date, title }) =>
-                parseISO(date) < new Date() && (
-                  <li className="mb-3" key={id}>
-                    <Link
-                      href={`/posts/${id}`}
-                      className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
-                    >
-                      {title}
-                    </Link>
-                    <br />
-                    <ReleaseDate dateString={date} />
-                  </li>
-                )
+              (
+                <li className="mb-3" key={id}>
+                  <Link
+                    href={`/posts/${id}`}
+                    className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
+                  >
+                    {title}
+                  </Link>
+                  <br />
+                  <ReleaseDate dateString={date} />
+                </li>
+              )
             )}
           </ul>
           <Link href="/news" className="mt-12 w-24 underline underline-offset-2 decoration-dotted text-blue-600 text-sm hover:decoration-solid hover:text-white">すべて見る</Link>

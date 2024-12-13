@@ -188,11 +188,8 @@ a {
   @apply h-40;
 }
 .piece {
-  @apply font-kurobara text-xl mb-1;
-}
-.piece:first-letter {
-  @apply text-2xl;
+  @apply font-kurobara text-4xl mb-1;
 }
 .author {
-  @apply font-kurobara text-sm;
+  @apply font-kurobara text-lg;
 }

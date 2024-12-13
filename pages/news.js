@@ -75,20 +75,19 @@ export default function Conductors({ allPostsData }) {
         </div>
 
         <ul className="mt-5">
-          {sortedPostsData.map(
-            ({ id, date, title }) =>
-              parseISO(date) < new Date() && (
-                <li className="mb-3" key={id}>
-                  <Link
-                    href={`/posts/${id}`}
-                    className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
-                  >
-                    {title}
-                  </Link>
-                  <br />
-                  <ReleaseDate dateString={date} />
-                </li>
-              )
+          {sortedPostsData.filter(post => parseISO(post.date) < new Date()).map(
+            ({ id, date, title }) => (
+              <li className="mb-3" key={id}>
+                <Link
+                  href={`/posts/${id}`}
+                  className="underline underline-offset-2 decoration-dotted hover:decoration-solid hover:text-lightyellow"
+                >
+                  {title}
+                </Link>
+                <br />
+                <ReleaseDate dateString={date} />
+              </li>
+            )
           )}
         </ul>
         <div className="spacer-s"></div>
@@ -115,7 +114,7 @@ export default function Conductors({ allPostsData }) {
       </main>
 
       <Footer />
-    </div>
+    </div >
   );
 }
 

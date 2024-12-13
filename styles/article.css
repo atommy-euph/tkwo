@@ -78,7 +78,8 @@
 }
 
 .article img {
-  @apply rounded-lg;
+  @apply rounded-lg w-full h-auto;
+  max-width: 800px;
 }
 
 /* Code */

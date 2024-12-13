@@ -3,8 +3,8 @@ import Link from "next/link";
 import titleLogo from "../icons/title-logo.svg";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import redLine from "../images/red-line.svg";
-import second from "../images/2nd.svg";
+import redLine from "../images/2nd/red-line.svg";
+import second from "../images/2nd/2nd.svg";
 
 export default function Header() {
   const { scrollYProgress } = useScroll();
