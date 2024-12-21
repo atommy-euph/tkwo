@@ -66,19 +66,28 @@ export default function Home({ allPostsData }) {
 
           <div className="spacer-s"></div>
 
-          <div className="px-10">
+          {/* <div className="px-10">
             <Link href="/posts/concert" className="button">
               詳細を見る
             </Link>
+          </div> */}
+
+          <div className="px-10">
+            <Link href="/posts/2024_recruit" className="button">
+              奏者募集中！
+            </Link>
           </div>
+
           <div className="spacer-m"></div>
 
           <div className="spacer-s bg-gradient-to-b from-transparent to-bg"></div>
         </div>
       </div >
       <div className="container">
+
         <Header />
         <main className="main">
+
           <h2 className="font-kurobara text-2xl  text-lightyellow first-letter:text-2xl mb-5">
             Informations
           </h2>

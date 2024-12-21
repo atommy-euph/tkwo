@@ -32,7 +32,7 @@ export default function Header() {
           />
         </Link>
         <Link className="button mt-4" href="/posts/concert">
-          詳細を見る
+          演奏会詳細
         </Link>
       </header>
     </motion.div>

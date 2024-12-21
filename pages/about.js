@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -21,6 +22,9 @@ export default function Conductors() {
       <main className="main">
         <div className="article">
           <h1 className="text-lightyellow">The Keynote Wind Orchestra </h1>
+          <Image width={1568 / 3} height={1046 / 3} src="/1st/group_photo_1st.jpg" alt="第一回演奏会時の集合写真" />
+          <span className="text-slate-400 text-sm">第１回演奏会の集合写真</span>
+          <div className="spacer-s"></div>
           <p>
             The Keynote Wind Orchestra ― 通称「ざき吹」。
             楽団名には「一人ひとりが『Keynote』(大切な音)」という意味が込められています。
