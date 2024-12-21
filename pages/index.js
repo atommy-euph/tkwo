@@ -23,6 +23,8 @@ export default function Home({ allPostsData }) {
           content={`ざき吹 | The Keynote Wind Orchestra`}
         />
       </Head>
+      <Header />
+
       <div className="bg-key-img bg-cover bg-right-bottom filter brightness-100 contrast-150">
         {/* トップ画面メインビジュアル */}
         <div className="relative z-10">
@@ -85,7 +87,6 @@ export default function Home({ allPostsData }) {
       </div >
       <div className="container">
 
-        <Header />
         <main className="main">
 
           <h2 className="font-kurobara text-2xl  text-lightyellow first-letter:text-2xl mb-5">

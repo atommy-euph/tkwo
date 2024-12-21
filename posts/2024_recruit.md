@@ -13,12 +13,12 @@ The Keynote Wind Orchestra。
 2023年3月に第一回目の演奏会を開催しました。今回はその第二回目です！
 
 <!-- その後それぞれの道へ進み、一旦はばらばらになってしまいましたが、
-「今まで一緒に音楽をしてきた人たちとまた音楽をしたい!再集結したい!」との思いから、
-当初一回きりと言っていたにも関わらず、第二回演奏会を行う運びとなりました! -->
+「今まで一緒に音楽をしてきた人たちとまた音楽をしたい！再集結したい！」との思いから、
+当初一回きりと言っていたにも関わらず、第二回演奏会を行う運びとなりました！ -->
 
-皆さんと一緒に音楽ができることを楽しみにしております!
+皆さんと一緒に音楽ができることを楽しみにしております！
 
-それではご参加お待ちしております!
+それではご参加お待ちしております！
 
 
 # 募集要項
@@ -91,7 +91,7 @@ The Keynote Wind Orchestra。
 
 ## 募集人数 (予定) 
 - Oboe:3名（うちEnglish Horn持ち替え1名）
-- Bassoon:2名（うちContrabassoon持ち替え1名）
+- Bassoon:2名（うちContrabassoon持ち替え1名）え
 - E♭Clarinet:1名
 - B♭Clarinet:6名
 - (Alto Clarinet:1名)
@@ -105,7 +105,7 @@ The Keynote Wind Orchestra。
 - Tuba:4名
 - St.bass:2名
 
-※Piccolo, Flute、Tenorbass Trombone、Euphonium、Percussion は募集がございません。
+※ Piccolo, Flute, Tenorbass Trombone,Euphonium,Percussion は募集がございません。
 
 ※ 現在の募集状況はフォームの冒頭に記載されています。
 

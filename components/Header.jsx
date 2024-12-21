@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <motion.div
       style={{ opacity }}
-      className="fixed top-0 w-full my-2 px-4 z-50"
+      className="fixed top-0 w-full my-2 px-4 z-10"
     >
       <header className="flex w-full justify-between items-center fixed top-2 left-0 p-[2rem] pt-10">
         <div className="absolute right-0 top-0 w-full">
