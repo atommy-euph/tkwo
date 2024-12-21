@@ -1,6 +1,6 @@
 ---
 title: '第2回演奏会について [Coming Soon...]'
-date: ''
+date: '2025-01-30'
 ---
 
 # Coming Soon...
