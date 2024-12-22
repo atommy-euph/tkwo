@@ -75,7 +75,7 @@ export default function Home({ allPostsData }) {
           </div> */}
 
           <div className="px-10">
-            <Link href="/posts/2024_recruit" className="button">
+            <Link href="/posts/2025_recruit" className="button">
               奏者募集中！
             </Link>
           </div>

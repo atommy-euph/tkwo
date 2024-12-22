@@ -29,7 +29,7 @@ The Keynote Wind Orchestra。
 
 ## The Keynote Wind Orchestra 第2回演奏会
 
-**日程** 2024 年 8 月 10 日 (⽇)
+**日程** 2025 年 8 月 10 日 (⽇)
 
 **開場** 17:00
 
