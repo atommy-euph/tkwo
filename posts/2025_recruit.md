@@ -93,8 +93,9 @@ The Keynote Wind Orchestra。
 ※ 所属、年齢等は問いません。
 
 ## 募集人数 (予定) 
-- Oboe:3名（うちEnglish Horn持ち替え1名）
-- Bassoon:2名（うちContrabassoon持ち替え1名）え
+
+- Oboe:1名
+- Bassoon:2名（うちContrabassoon持ち替え1名）
 - E♭Clarinet:1名
 - B♭Clarinet:6名
 - (Alto Clarinet:1名)
@@ -108,7 +109,7 @@ The Keynote Wind Orchestra。
 - Tuba:4名
 - St.bass:2名
 
-※ Piccolo, Flute, Tenorbass Trombone,Euphonium,Percussion は募集がございません。
+※ Piccolo, Flute, Tenorbass Trombone, Euphonium, Percussion は募集がございません。
 
 ※ 現在の募集状況はフォームの冒頭に記載されています。
 
