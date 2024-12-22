@@ -3,7 +3,7 @@ title: '第2回演奏会の奏者を募集中！【1/13 〆】'
 date: '2024-12-21'
 ---
 
-![](/2nd/main-visual.jpg)
+![](/2nd/main-visual-resized.jpg)
 
 お久しぶりです！The Keynote Wind Orchestraです！
 この度、第２回演奏会を開催する運びとなりました。
@@ -109,7 +109,7 @@ The Keynote Wind Orchestra。
 - Tuba:4名
 - St.bass:2名
 
-※ Piccolo, Flute, Tenorbass Trombone, Euphonium, Percussion は募集がございません。
+※ Piccolo, Flute, Tenorbass Trombone, Euphonium, Percussion は今回募集がございません。
 
 ※ 現在の募集状況はフォームの冒頭に記載されています。
 
