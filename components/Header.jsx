@@ -31,7 +31,7 @@ export default function Header() {
             alt="the keynote wind orchestra"
           />
         </Link>
-        <Link className="button mt-4" href="/posts/concert">
+        <Link className="button mt-4" href="/posts/2025_concert">
           演奏会詳細
         </Link>
       </header>
