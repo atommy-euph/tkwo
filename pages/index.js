@@ -95,7 +95,7 @@ export default function Home({ allPostsData }) {
           <div className="grid">
             <Link href="/about" className="card">
               <h2>The Keynote Wind Orchestra とは &rarr;</h2>
-              <p>ひとり一人の音を大切に、心に沁み渡る演奏を。</p>
+              <p>一人ひとりの音を大切に、心に沁み渡る演奏を。</p>
             </Link>
             <Link href="/posts/concert" className="card">
               <h2>次回コンサート情報 &rarr;</h2>
