@@ -84,7 +84,7 @@ The Keynote Wind Orchestra。
 - ３月に１度、初見合奏を実施します。
 
     - **日程:** 3月20日
-    - **会場:** MARUSHO MUSIC STUDIO (東大阪市)
+    - **会場:** [MARUSHO MUSIC STUDIO (東大阪市)](https://marusho-music-studio.jimdosite.com/)
 
 - その後、5月10日以降の土日祝日で、13~15回程度の練習日を設けます。
 - 練習日のうち、打楽器を含めた練習は7回前後を予定しております。
